@@ -118,4 +118,7 @@ The following cases demonstrate the uage of Call by value and Call by Reference:
      + Print: "You are not eligible for a salary increment at this time"
 
     Step 7: End the program
-    
+
+
+    # Conclusion:
+The above code demonstrates the usage of pointer used in call by value and call by refernce in C++.
