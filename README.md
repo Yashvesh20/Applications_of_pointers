@@ -37,3 +37,85 @@ The following cases demonstrate the uage of Call by value and Call by Reference:
 + Call by value
 + Call by Reference
 + Salary increment using Call by Reference
+
+  # Algorithm
+  + Call by Reference:
+    
+    Step 1: Start
+    
+    Step 2: Declare a function swap(int *x, int *y
+    
+    Step 3: Inside the swap() function
+    
+      Declare a temporary variable: temp
+      Store the value at address x in temp → temp = *x
+      Copy value at address y to address x → *x = *y
+      Copy temp to address y → *y = temp
+      This completes the swap.
+
+    Step 4: In the main() function
+    
+    Declare two integer variables: a = 20, b = 22
+    Call the swap() function and pass the addresses of a and b → swap(&a, &b)
+
+    Step 5: Print the swapped values of a and b
+    
+    Step 6: End
+
+   # Salary incrementation using pointers
+
+    Step 1: Start
+  
+    Step 2: Declare variables
+
+     + curr_sal → to store current salary
+
+     + yr → to store number of years worked
+
+     + profit → to store total profit earned
+
+     + curr_proj → to store Yes/No for research project
+
+     + tot_proj → total number of projects
+
+     + eligible → a boolean (true/false) to track if the person is eligible
+
+    Step 3: Ask the user to enter the following information
+
+     + Current salary
+
+     + Years worked
+
+     + Profit earned
+
+     + Research project in pipeline (Yes/No)
+
+     + Total number of projects worked on
+
+    Step 4: Check the eligibility conditions
+
+     + If any one of the following is true:
+
+     + Years worked is 1 or more
+
+     + Profit earned is 100000 or more
+
+     + Has a research project (Yes)
+
+     + Has worked on 2 or more projects
+        Then mark eligible = true
+
+    Step 5: If eligible is true
+
+     + Call a function to increase the salary by 20%
+
+     +Print: "You are eligible for a salary increment"
+
+     + Print the new salary
+
+    Step 6: If eligible is false
+
+     + Print: "You are not eligible for a salary increment at this time"
+
+    Step 7: End the program
+    
